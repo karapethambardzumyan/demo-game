@@ -72,7 +72,7 @@ class Game extends Scene {
         graphics.strokeLineShape(target);
       },
       onComplete: () => {
-        const newLength = getRandomLength(0, 50);
+        const newLength = getRandomLength(50, 100);
         const newAngle = Phaser.Math.Between(-45, 45);
         const newDirection = direction === 'up' ? 'down' : 'up';
 
